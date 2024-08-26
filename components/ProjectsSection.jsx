@@ -48,7 +48,9 @@ const ProjectsSection = () => {
 
   return (
     <>
-      <h2 className="text-3xl text-white-100 font-bold mb-4">Our Projects</h2>
+      <h2 className="text-3xl text-white-100 font-bold mb-4" id="projects">
+        Our Projects
+      </h2>
       <div className="grid grid-cols-1 lg:grid-cols-4">
         {ProjectsData.map((project) => (
           <ProjectCard
